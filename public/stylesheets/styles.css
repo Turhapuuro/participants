@@ -1,0 +1,168 @@
+body {
+    color: #7A7A7A;
+}
+
+.table {
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #797979;
+    margin-left: 32px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.list-container {
+    max-width: 912px;
+}
+
+.top-container {
+    background: #f1f1f1;
+    max-width: 976px;
+    padding: 0px;
+    padding-bottom: 150px;
+}
+
+.table-container {
+    margin: 5px -5px 0px -5px;
+    background: #ffffff;
+}
+
+th>span {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 800;
+    padding: 0px;
+}
+
+th>span:hover{
+    color:#b7b7b7;
+}
+
+#email {
+    width: 28%;
+}
+
+#name-header {
+    padding-left:24px;
+    width: 26%;
+}
+
+#phone-edit{
+    width: 28%;
+}
+
+.form-inline
+.form-control {
+     margin: 16px 16px;
+     border-radius: 0px;
+     background: #f7f7f7;
+     border-color: #fafafa; 
+     width: 90%;
+ }
+
+ .form-group{
+     text-align: center;
+ }
+
+.form-container {
+    background: #ffffff;
+    margin: auto;
+    max-width: 100%;
+    margin: 0px 10px 5px 10px;
+}
+
+.edit-form-button {
+    margin-left: 1.1em;
+}
+
+a{
+    padding: 20px;
+}
+
+a:hover {
+    color: #757575;
+    text-decoration: none;
+}
+
+.form-button {
+    border: none;
+    background: #ededed;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: middle;
+    padding: 10px 20px;
+    display: inline;
+}
+
+.form-button-active {
+    background: #07f;
+    color: #ffffff;
+}
+  
+.navbar-default .navbar-brand {
+    padding: 32px;
+    font-size: 24px;
+    color: white;
+    margin-top: 10px;
+}
+  
+.navbar {
+    border-radius: 0px;
+    margin: auto;
+    max-width: 976px;
+    margin-bottom: 0px;
+    height: 100px;
+}
+  
+.navbar-default {
+    background: #adb5bd;
+}
+
+.table>thead>tr>th{
+    padding-left: 24px;
+}
+
+.table>tbody>tr>td.table-cell{
+    padding: 30px 0px 30px 24px;
+}
+
+.table>tbody>tr>td{
+    color: #757575;
+    vertical-align: middle;
+    font-size:16px;
+}
+
+@media(min-width: 788px){
+    .form-button{
+        margin-left: 10px;
+    }
+}
+
+@media(min-width: 992px){
+    /* .form-button {
+        margin-left: 7em;
+    } */
+
+    .form-container{
+        margin: 0px 0px 5px 0px;
+    }
+
+    .table-container{
+        margin: 5px -15px 0px -15px;
+    }
+}
+
+@media(min-width: 970px){
+    .container{
+        width: 100%;
+    }   
+}
+
+@media(min-width: 768px){
+    .container{
+        width: 100%;
+    }   
+}
